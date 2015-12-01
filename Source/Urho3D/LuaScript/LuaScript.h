@@ -38,7 +38,7 @@ class LuaScriptEventInvoker;
 class Scene;
 
 /// Lua script subsystem.
-class URHO3D_API LuaScript : public Object, public LuaScriptEventListener
+class URHO3D_API NONSCRIPTABLE LuaScript : public Object, public LuaScriptEventListener
 {
     URHO3D_OBJECT(LuaScript, Object);
 
